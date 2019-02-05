@@ -53,7 +53,7 @@ spec:
 ---
 apiVersion: v1
 data:
-  admin-password: UEFJZVVTc0Q2U3JneGZYM3cxbHc3bGJLeVlNNnVTU3lnaHE3Zld5UQ==
+  admin-password: SWJBcmRXcm9Sa24zNnI5ZUtYbm01elU0eldUQ1J5Tkd3ZERnODBPbw==
   admin-user: YWRtaW4=
   ldap-toml: ""
 kind: Secret
@@ -158,7 +158,7 @@ spec:
   resources:
     requests:
       storage: 4Gi
-  storageClassName: managed-premium
+  storageClassName: default
 
 ---
 apiVersion: v1

@@ -397,7 +397,7 @@ spec:
       - ReadWriteOnce
       resources:
         requests:
-          storage: 30Gi
+          storage: 64Gi
       storageClassName: managed-premium
 
 ---
